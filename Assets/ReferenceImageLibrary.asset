@@ -21,8 +21,8 @@ MonoBehaviour:
       m_GuidLow: 4939212327096550857
       m_GuidHigh: 9847479859987063700
     m_SerializedTextureGuid:
-      m_GuidLow: 14619911617480223249
-      m_GuidHigh: 5886491347507997371
+      m_GuidLow: 15052190693685722945
+      m_GuidHigh: 12813280885876204458
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: hydrangeas
@@ -31,8 +31,8 @@ MonoBehaviour:
       m_GuidLow: 5758544363314394369
       m_GuidHigh: 9526648861518863246
     m_SerializedTextureGuid:
-      m_GuidLow: 16844599097021740265
-      m_GuidHigh: 8621309002372303371
+      m_GuidLow: 145464703457418023
+      m_GuidHigh: 12234154030511051931
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: fiddleleaf_fig
@@ -41,8 +41,8 @@ MonoBehaviour:
       m_GuidLow: 5156578815782542812
       m_GuidHigh: 3940013888178238654
     m_SerializedTextureGuid:
-      m_GuidLow: 16498060834584455460
-      m_GuidHigh: 1600161593679392859
+      m_GuidLow: 11651948105288607090
+      m_GuidHigh: 12493582704846490778
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: monstera
@@ -51,8 +51,8 @@ MonoBehaviour:
       m_GuidLow: 5361651801433848084
       m_GuidHigh: 15170883869458523288
     m_SerializedTextureGuid:
-      m_GuidLow: 16858196112518003838
-      m_GuidHigh: 4988945079140963769
+      m_GuidLow: 8422983291436339981
+      m_GuidHigh: 5304812309418473976
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: pothos
@@ -61,8 +61,8 @@ MonoBehaviour:
       m_GuidLow: 5435990828234008894
       m_GuidHigh: 9692489656991552693
     m_SerializedTextureGuid:
-      m_GuidLow: 12435670442340058440
-      m_GuidHigh: 6596986610924887160
+      m_GuidLow: 17826607552316740390
+      m_GuidHigh: 14618143194186231097
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: orchids
@@ -71,9 +71,19 @@ MonoBehaviour:
       m_GuidLow: 5058527434708517565
       m_GuidHigh: 738799576139565238
     m_SerializedTextureGuid:
-      m_GuidLow: 5540731344783599725
-      m_GuidHigh: 641028297043124169
+      m_GuidLow: 14011959056166369332
+      m_GuidHigh: 3880443448167924872
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: spider_plant
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5109078126046073924
+      m_GuidHigh: 3380792454274582420
+    m_SerializedTextureGuid:
+      m_GuidLow: 1109148181777634652
+      m_GuidHigh: 7494736971102202568
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: monstera_bad
     m_Texture: {fileID: 0}

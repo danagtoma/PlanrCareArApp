@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\danag\\PlantCareAR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE75DDDC-7CDE-A7D5-EFC1-BFFA69E55556}|Assembly-CSharp.csproj|C:\\Users\\danag\\PlantCareAR\\assets\\scripts\\plantdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE75DDDC-7CDE-A7D5-EFC1-BFFA69E55556}|Assembly-CSharp.csproj|c:\\users\\danag\\plantcarear\\assets\\scripts\\plantdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE75DDDC-7CDE-A7D5-EFC1-BFFA69E55556}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plantdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{BE75DDDC-7CDE-A7D5-EFC1-BFFA69E55556}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plantpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE75DDDC-7CDE-A7D5-EFC1-BFFA69E55556}|Assembly-CSharp.csproj|c:\\users\\danag\\plantcarear\\assets\\scripts\\imageidbuttonscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE75DDDC-7CDE-A7D5-EFC1-BFFA69E55556}|Assembly-CSharp.csproj|C:\\Users\\danag\\PlantCareAR\\assets\\scripts\\imageidbuttonscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE75DDDC-7CDE-A7D5-EFC1-BFFA69E55556}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\imageidbuttonscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ImageIDButtonScanner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T22:29:16.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T22:29:16.675Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlantPanelController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAgwC8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T18:27:42.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T18:27:42.092Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlantDatabase.cs",
               "ToolTip": "C:\\Users\\danag\\PlantCareAR\\Assets\\Scripts\\PlantDatabase.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlantDatabase.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAUwGsAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAUwGoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-06T18:26:49.645Z",
               "EditorCaption": ""
