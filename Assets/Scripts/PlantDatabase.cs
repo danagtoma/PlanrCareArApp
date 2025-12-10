@@ -104,7 +104,7 @@ public class PlantDatabase : MonoBehaviour
         // --- Plant: Monstera dry ---
         plantLibrary.Add(new PlantData
         {
-            id = "monstera_bad",              
+            id = "leaf_bad",              
             displayName = "Monestera - Dry leaves",
 
             // DRY SETTINGS
