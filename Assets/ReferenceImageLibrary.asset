@@ -78,12 +78,72 @@ MonoBehaviour:
     m_Name: spider_plant
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5109078126046073924
-      m_GuidHigh: 3380792454274582420
+      m_GuidLow: 5505471919136292945
+      m_GuidHigh: 4587608769261326778
     m_SerializedTextureGuid:
-      m_GuidLow: 1109148181777634652
-      m_GuidHigh: 7494736971102202568
+      m_GuidLow: 627239611603827171
+      m_GuidHigh: 8455017335207223992
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: leaf_bad
+    m_Name: f_f_bad_leaf
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5751626531275335221
+      m_GuidHigh: 17082896148637705863
+    m_SerializedTextureGuid:
+      m_GuidLow: 5220887878380052136
+      m_GuidHigh: 16696434382965794826
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: m_bad_leaf
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5420703154677577237
+      m_GuidHigh: 3840059594647079610
+    m_SerializedTextureGuid:
+      m_GuidLow: 5950477746067144346
+      m_GuidHigh: 8285576066004283690
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: o_bad_leaf
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5109040234608269638
+      m_GuidHigh: 9971998159718345908
+    m_SerializedTextureGuid:
+      m_GuidLow: 13241929504635789323
+      m_GuidHigh: 1989375898823894074
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: s_p_bad_leaf
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5555568374455448582
+      m_GuidHigh: 12325038829790214055
+    m_SerializedTextureGuid:
+      m_GuidLow: 13867861603050887231
+      m_GuidHigh: 12894784432189995944
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: p_bad_leaf
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4943789891555283597
+      m_GuidHigh: 10669449891274778497
+    m_SerializedTextureGuid:
+      m_GuidLow: 10481105863729530935
+      m_GuidHigh: 1915074553233302634
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: h_bad_leaf
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5584065891523505813
+      m_GuidHigh: 11673143475134769830
+    m_SerializedTextureGuid:
+      m_GuidLow: 1663037487408829529
+      m_GuidHigh: 12268768521972341451
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: fi_fig_bad_leaf_red
     m_Texture: {fileID: 0}

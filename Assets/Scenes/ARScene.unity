@@ -190,7 +190,6 @@ GameObject:
   - component: {fileID: 101236814}
   - component: {fileID: 101236813}
   - component: {fileID: 101236811}
-  - component: {fileID: 101236815}
   - component: {fileID: 101236816}
   m_Layer: 0
   m_Name: ARManager
@@ -242,21 +241,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &101236815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 101236810}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7544e41d7766bc0479095b8ce1cd08c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ImageTrackingHandler
-  imageManager: {fileID: 1283216186}
-  database: {fileID: 246080450}
-  plantInfoPrefab: {fileID: 3839812800396974835, guid: 25d5448815317c7489d07e2fa5b58844, type: 3}
 --- !u!114 &101236816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,6 +256,7 @@ MonoBehaviour:
   imageManager: {fileID: 1283216186}
   database: {fileID: 246080450}
   plantInfoPrefab: {fileID: 3839812800396974835, guid: 25d5448815317c7489d07e2fa5b58844, type: 3}
+  healthAlertPrefab: {fileID: 710764984764406851, guid: 2dccad083e70778489e956d87ceea501, type: 3}
 --- !u!1 &246080449
 GameObject:
   m_ObjectHideFlags: 0

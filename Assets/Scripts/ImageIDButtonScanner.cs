@@ -5,12 +5,13 @@ using System.Collections.Generic;
 
 public class ImageIDButtonScanner : MonoBehaviour
 {
-    // --- IF THESE LINES ARE MISSING, YOU WON'T SEE SLOTS ---
     [Header("Connections")]
     public ARTrackedImageManager imageManager;
     public PlantDatabase database;
-    public GameObject plantInfoPrefab;
-    // -------------------------------------------------------
+
+    [Header("Prefabs")]
+    public GameObject plantInfoPrefab;   
+    public GameObject healthAlertPrefab; 
 
     private GameObject currentPanel;
 
@@ -49,20 +50,35 @@ public class ImageIDButtonScanner : MonoBehaviour
     private void SpawnUI(ARTrackedImage imageReference)
     {
         string id = imageReference.referenceImage.name;
-
-        // Find Data
         var data = database.GetPlantData(id);
+
         if (data == null) return;
 
-        // Position 10cm ABOVE the image (Fixes button clicks)
+        // --- ADD THESE DEBUG LINES ---
+        Debug.Log("Found ID: " + data.id);
+        Debug.Log("Type from Database: '" + data.type + "'");
+        // -----------------------------
+
+        // --- SELECT WHICH PREFAB TO USE ---
+        GameObject prefabToSpawn;
+
+        if (data.type == "Health")
+        {
+            prefabToSpawn = healthAlertPrefab; // Use RED box for diseases
+        }
+        else
+        {
+            prefabToSpawn = plantInfoPrefab;   // Use BLUE box for plants
+        }
+        // ----------------------------------
+
         Vector3 spawnPos = imageReference.transform.position + (imageReference.transform.up * 0.1f);
 
-        currentPanel = Instantiate(plantInfoPrefab, spawnPos, imageReference.transform.rotation);
+        // Instantiate the selected prefab
+        currentPanel = Instantiate(prefabToSpawn, spawnPos, imageReference.transform.rotation);
 
-        // Face Camera
         currentPanel.transform.LookAt(Camera.main.transform);
 
-        // Fill Text
         PlantPanelController controller = currentPanel.GetComponent<PlantPanelController>();
         if (controller != null)
         {

@@ -21,6 +21,7 @@ public class PlantDatabase : MonoBehaviour
         plantLibrary.Add(new PlantData
         {
             id = "monstera",
+            type = "Normal",
             displayName = "Monstera Deliciosa",
             waterLevel = 75,
             lastWateredDate = "3 Days Ago",
@@ -35,6 +36,7 @@ public class PlantDatabase : MonoBehaviour
         plantLibrary.Add(new PlantData
         {
             id = "snake_plant",
+            type = "Normal",
             displayName = "Snake Plant",
             waterLevel = 10,
             lastWateredDate = "2 Weeks Ago",
@@ -49,6 +51,7 @@ public class PlantDatabase : MonoBehaviour
         plantLibrary.Add(new PlantData
         {
             id = "fiddleleaf_fig",
+            type = "Normal",
             displayName = "Fiddle Leaf Fig",
             waterLevel = 50,
             lastWateredDate = "Yesterday",
@@ -63,6 +66,7 @@ public class PlantDatabase : MonoBehaviour
         plantLibrary.Add(new PlantData
         {
             id = "pothos",
+            type = "Normal",
             displayName = "Pothos",
             waterLevel = 30,
             lastWateredDate = "1 Month Ago",
@@ -77,6 +81,7 @@ public class PlantDatabase : MonoBehaviour
         plantLibrary.Add(new PlantData
         {
             id = "orchids",
+            type = "Normal",
             displayName = "Orchids",
             waterLevel = 90,
             lastWateredDate = "This Morning",
@@ -91,6 +96,7 @@ public class PlantDatabase : MonoBehaviour
         plantLibrary.Add(new PlantData
         {
             id = "hydrangeas",
+            type = "Normal",
             displayName = "Hydrangeas",
             waterLevel = 90,
             lastWateredDate = "This Morning",
@@ -101,22 +107,77 @@ public class PlantDatabase : MonoBehaviour
             optimalLux = "Full Sun"
         });
 
-        // --- Plant: Monstera dry ---
+        // Leaf
         plantLibrary.Add(new PlantData
         {
-            id = "leaf_bad",              
-            displayName = "Monestera - Dry leaves",
+            id = "f_f_bad_leaf",
+            type = "Health",
+            displayName = "Fiddleleaf Fig Leaves", // The Plant Name
 
-            // DRY SETTINGS
-            waterLevel = 0,             
-            lastWateredDate = "35 Days Ago",
-            nextWateringDate = "RIGHT NOW!",
+            // YOUR NEW DATA
+            healthStatus = "Critical",
+            condition = "Iron Deficiency (Chlorosis)",
+            recomandedFurtherSteps = "Apply Chelated Iron to soil immediately. Avoid overwatering."
+        });
 
-            nutrientStatus = "Stable",
-            fertilizerRecommendation = "None needed yet",
+        // 1. POWDERY MILDEW (Fungal Infection)
+        plantLibrary.Add(new PlantData
+        {
+            id = "s_p_bad_leaf",
+            type = "Health",
+            displayName = "Spider Plant Leaves",
 
-            sunStatus = "Perfect",
-            optimalLux = "Direct Sunlight"
+            healthStatus = "Medium",
+            condition = "Powdery Mildew (Fungus)",
+            recomandedFurtherSteps = "Remove infected leaves. Spray with neem oil or baking soda mixture. Increase air circulation."
+        });
+
+        // 2. SPIDER MITES (Pest Infestation)
+        plantLibrary.Add(new PlantData
+        {
+            id = "p_bad_leaf",
+            type = "Health",
+            displayName = "Pothos Leaves",
+
+            healthStatus = "Critical",
+            condition = "Spider Mite Infestation",
+            recomandedFurtherSteps = "Isolate plant immediately! Wipe leaves with alcohol. Spray with miticide or insecticidal soap every 3 days."
+        });
+
+        // 3. ROOT ROT (Overwatering)
+        plantLibrary.Add(new PlantData
+        {
+            id = "o_bad_leaf",
+            type = "Health",
+            displayName = "Orchids Leaves",
+
+            healthStatus = "Critical",
+            condition = "Root Rot (Overwatering)",
+            recomandedFurtherSteps = "Stop watering. Repot into dry, fresh soil immediately. Trim mushy black roots. Ensure pot has drainage holes."
+        });
+
+        // 4. SUN SCORCH (Sunburn)
+        plantLibrary.Add(new PlantData
+        {
+            id = "m_bad_leaf",
+            type = "Health",
+            displayName = "Monstera Leaves",
+
+            healthStatus = "Medium",
+            condition = "Sun Scorch (Bleaching)",
+            recomandedFurtherSteps = "Move plant away from direct window light. The burnt spots will not heal, but new growth will be healthy."
+        });
+
+        // 5. NITROGEN DEFICIENCY (General Yellowing)
+        plantLibrary.Add(new PlantData
+        {
+            id = "h_bad_leaf",
+            type = "Health",
+            displayName = "Hydrangeas Leaves",
+
+            healthStatus = "Medium",
+            condition = "Nitrogen Deficiency",
+            recomandedFurtherSteps = "Apply a high-nitrogen liquid fertilizer (NPK 3-1-2). Check soil pH to ensure nutrient absorption."
         });
     }
 
@@ -126,6 +187,7 @@ public class PlantDatabase : MonoBehaviour
     {
         public string id; // e.g. "wheat" or "monsterra"
         public string displayName;
+        public string type; //Normal or health
 
         [Header("Water Data")]
         public int waterLevel; // 0 to 100
@@ -139,6 +201,10 @@ public class PlantDatabase : MonoBehaviour
         [Header("Sun Data")]
         public string sunStatus; // "Too Dry", "Perfect"
         public string optimalLux;
+
+        public string healthStatus; // "Critical", "Medium", "Good"
+        public string condition;    // "Iron Deficiency", "Fungus"
+        public string recomandedFurtherSteps; // "Use Chelated Iron"
     }
 
     // 2. The Array of Predefined Objects
